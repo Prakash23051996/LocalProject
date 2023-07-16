@@ -2,7 +2,7 @@ package Sample;
 
 import java.util.Scanner;
 
-public class Sample {
+public class ScannerClass {
 
 	String nextLine="";
 	int  nextInt=0;
@@ -21,7 +21,7 @@ public class Sample {
 	}
 	public static void main(String[] args) {
 		
-		Sample sa = new Sample();
+		ScannerClass sa = new ScannerClass();
 		
 		sa.getMethod();
 		sa.method2();
